@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: -1;
+}
+
+/* NAWIGACJA */
+
+
+nav {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+/* HEADER */
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one {
+    background-image: url('../img/header/dodge-small.jpg');
+}
+
+.carousel-img-two {
+    background-image: url('../img/header/mustang-ciemny-small.jpg');
+}
+
+.carousel-img-three {
+    background-image: url('../img/header/mustang-jasny-small.jpg');
+}
+
+
+/* home */
+
+.home-boxes {
+    padding: 5em 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+/* --------------- */
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url(../img/foto1.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+
+
+@media (min-width:1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-img-one {
+        background-image: url('../img/header/dodge.jpg');
+    }
+
+    .carousel-img-two {
+        background-image: url('../img/header/mustang-ciemny.jpg');
+    }
+
+    .carousel-img-three {
+        background-image: url('../img/header/mustang-jasny.jpg');
+    }
+}
