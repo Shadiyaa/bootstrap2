@@ -26,7 +26,6 @@ body {
 
 /* NAWIGACJA */
 
-
 nav {
     font-size: 2rem;
     text-transform: uppercase;
@@ -68,7 +67,6 @@ header {
     background-image: url('../img/header/mustang-jasny-small.jpg');
 }
 
-
 /* home */
 
 .home-boxes {
@@ -94,22 +92,21 @@ header {
     z-index: 0;
 }
 
-
-
+.home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
 
 @media (min-width:1400px) {
     .carousel-item {
         height: 600px;
     }
-
     .carousel-img-one {
         background-image: url('../img/header/dodge.jpg');
     }
-
     .carousel-img-two {
         background-image: url('../img/header/mustang-ciemny.jpg');
     }
-
     .carousel-img-three {
         background-image: url('../img/header/mustang-jasny.jpg');
     }
