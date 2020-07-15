@@ -119,6 +119,20 @@ header {
     font-weight: bold;
 }
 
+/* aboutus */
+
+.aboutus-hero{
+    margin-top: 70px;
+    background-image: url('../img/about/about-hero.jpg');
+    background-position: bottom;
+}
+
+/* --------------- */
+
+.aboutus-top .display-3{
+    text-transform: uppercase;
+}
+
 /* footer */
 
 footer {
